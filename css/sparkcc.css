@@ -1,4 +1,12 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');
+@font-face {
+    font-family: Antipasto;
+    src: url('../fonts/Antipasto.ttf');
+}
+
+@font-face {
+    font-family: Yorkville;
+    src: url('../fonts/Yorkville.ttf');
+}
 
 body {
     background: url('../img/sparks.jpg') no-repeat center center fixed;
@@ -8,7 +16,7 @@ body {
     background-size: cover;
     color:#fff;
     background-color:#333;
-    font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+    font-family: 'Antipasto',Arial,Helvetica,Sans-Serif;
 }
 
 .nounderline {
